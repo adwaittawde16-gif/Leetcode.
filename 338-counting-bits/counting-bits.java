@@ -10,7 +10,7 @@ class Solution {
         }
         return ans;
     }
-    public int countOnes(String nums)
+    private int countOnes(String nums)
     {
         int count = 0;
         for(int i = 0;i<nums.length();i++)
